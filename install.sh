@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 format() {
   clear
   echo "set filesystem
