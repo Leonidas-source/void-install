@@ -30,6 +30,7 @@ format2() {
   [ "$answr4" == "1" ] && mkfs.vfat $drive3
   [ "$answr4" == "2" ] && mkfs.exfat $drive3
 }
+clear
 lsblk
 echo "set drive"
 read drive
