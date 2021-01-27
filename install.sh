@@ -67,4 +67,5 @@ mount --make-rslave /mnt/dev
 mount --rbind /proc /mnt/proc
 mount --make-rslave /mnt/proc
 cp /etc/resolv.conf /mnt/etc/
+cp userland.sh /mnt
 chroot /mnt sh userland.sh
