@@ -59,8 +59,8 @@ mount $drive3 /mnt/boot
 ls /usr/bin | grep -w "nano" || (xbps-install -S && xbps-install nano)
 nano mirrorlist
 REPO=$(cat mirrorlist | grep -v '#')
-XBPS_ARCH=x86_64-musl
-xbps-install -S -r /mnt -R $REPO'current' base-system
+ARCH=x86_64-musl
+XBPS_ARCH=$ARCH xbps-install -S -r /mnt -R $REPO'current' base-system
 mount --rbind /sys /mnt/sys
 mount --make-rslave /mnt/sys
 mount --rbind /dev /mnt/dev
