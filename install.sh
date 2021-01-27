@@ -61,6 +61,7 @@ nano mirrorlist
 REPO=$(cat mirrorlist | grep -v '#')
 ARCH=x86_64-musl
 XBPS_ARCH=$ARCH xbps-install -S -r /mnt -R $REPO'current' base-system
+XBPS_ARCH=$ARCH xbps-install -S -r /mnt -R $REPO'current' base-system
 mount --rbind /sys /mnt/sys
 mount --make-rslave /mnt/sys
 mount --rbind /dev /mnt/dev
