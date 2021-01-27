@@ -1,47 +1,47 @@
 #set your mirror
 #EU: Finland
-#https://alpha.de.repo.voidlinux.org/	
+#https://alpha.de.repo.voidlinux.org/musl/	
 #USA: Chicago
-#https://mirrors.servercentral.com/voidlinux/
+#https://mirrors.servercentral.com/voidlinux/musl/
 #USA: Kansas City
-#https://alpha.us.repo.voidlinux.org/	
+#https://alpha.us.repo.voidlinux.org/musl/	
 #USA: New York
-#https://mirror.clarkson.edu/voidlinux/	
+#https://mirror.clarkson.edu/voidlinux/musl/	
 #Asia: Almaty, KZ
-#https://mirror.ps.kz/voidlinux/	
+#https://mirror.ps.kz/voidlinux/musl/	
 #Asia: China
-#https://mirrors.bfsu.edu.cn/voidlinux/
+#https://mirrors.bfsu.edu.cn/voidlinux/musl/
 #Asia: China
-#https://mirrors.cnnic.cn/voidlinux/	
+#https://mirrors.cnnic.cn/voidlinux/musl/	
 #Asia: China
-#https://mirrors.tuna.tsinghua.edu.cn/voidlinux/
+#https://mirrors.tuna.tsinghua.edu.cn/voidlinux/musl/
 #Asia: Seoul, SK
-#https://mirror.maakpain.kro.kr/void/	
+#https://mirror.maakpain.kro.kr/void/musl/
 #Asia: Singapore
-#https://void.webconverger.org/
+#https://void.webconverger.org/musl/
 #AU: Canberra
-#https://mirror.aarnet.edu.au/pub/voidlinux/
+#https://mirror.aarnet.edu.au/pub/voidlinux/musl/
 #AU: Melbourne
-#https://ftp.swin.edu.au/voidlinux/
+#https://ftp.swin.edu.au/voidlinux/musl/
 #EU: Amsterdam, NL
-#https://void.cijber.net/
+#https://void.cijber.net/musl/
 #EU: Denmark
-#http://ftp.dk.xemacs.org/voidlinux/
+#http://ftp.dk.xemacs.org/voidlinux/musl/
 #EU: Denmark
-#https://mirrors.dotsrc.org/voidlinux/
+#https://mirrors.dotsrc.org/voidlinux/musl/
 #EU: Hungary
-#https://quantum-mirror.hu/mirrors/pub/voidlinux/	
+#https://quantum-mirror.hu/mirrors/pub/voidlinux/musl/	
 #EU: Russia
-#http://ftp.debian.ru/mirrors/voidlinux/
+#http://ftp.debian.ru/mirrors/voidlinux/musl/
 #EU: Russia
-#https://mirror.yandex.ru/mirrors/voidlinux/
+#https://mirror.yandex.ru/mirrors/voidlinux/musl/
 #EU: Sweden
-#https://cdimage.debian.org/mirror/voidlinux/	
+#https://cdimage.debian.org/mirror/voidlinux/musl/	
 #EU: Sweden
-#https://ftp.acc.umu.se/mirror/voidlinux/	
+#https://ftp.acc.umu.se/mirror/voidlinux/musl/	
 #EU: Sweden
-#https://ftp.lysator.liu.se/pub/voidlinux/
+#https://ftp.lysator.liu.se/pub/voidlinux/musl/
 #EU: Sweden
-#https://ftp.sunet.se/mirror/voidlinux/	
+#https://ftp.sunet.se/mirror/voidlinux/musl/
 #Asia: China
-#https://mirrors.hushan.tech:44300/voidlinux	
+#https://mirrors.hushan.tech:44300/voidlinux/musl/	
