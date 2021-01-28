@@ -1,4 +1,5 @@
 #!/bin/bash
+xbps-install -u xbps
 xbps-install -S 
 xbps-install nano
 nano /etc/hostname
