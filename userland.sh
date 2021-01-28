@@ -1,6 +1,5 @@
 #!/bin/bash
-xbps-install -u xbps
-xbps-install -S 
+xbps-install -Syu 
 xbps-install nano
 nano /etc/hostname
 echo "set root password"
