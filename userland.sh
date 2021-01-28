@@ -1,6 +1,6 @@
 #!/bin/bash
 xbps-install -Syu 
-xbps-install nano
+xbps-install -y mc wget unzip nano
 nano /etc/hostname
 echo "set root password"
 passwd
