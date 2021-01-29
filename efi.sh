@@ -1,7 +1,9 @@
 #!/bin/bash
+clear
 lsblk
 echo "set your drive(not partition) with ESP"
 read answr
+clear
 lsblk $answr
 echo "set number of that(ESP) partition (1,2,3,4)"
 read answr2
