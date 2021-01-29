@@ -56,7 +56,7 @@ read answr3
 [ "$answr3" == "1" ] && format2
 mkdir /mnt/boot
 mount $drive3 /mnt/boot
-ls /usr/bin | grep -w "nano" || (xbps-install -S && xbps-install nano)
+ls /usr/bin | grep -w "nano" || (xbps-install -Syu && xbps-install -y nano)
 nano mirrorlist
 REPO=$(cat mirrorlist | grep -v '#')
 ARCH=x86_64-musl
