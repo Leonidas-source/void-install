@@ -62,6 +62,7 @@ REPO=$(cat mirrorlist | grep -v '#')
 ARCH=x86_64-musl
 XBPS_ARCH=$ARCH xbps-install -Sy -r /mnt -R $REPO'current/musl/' base-system
 ls /usr/bin | grep -w "efibootmgr" || xbps-install -y efibootmgr
+clear
 echo "set your bootloader
 1) grub
 2) efistub"
