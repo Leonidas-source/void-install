@@ -78,5 +78,5 @@ cp /etc/resolv.conf /mnt/etc/
 cp userland.sh /mnt
 chroot /mnt bash userland.sh
 rm /mnt/userland.sh
-ls /mnt | grep -w "right" && rm /mnt/right
 ls | grep -w "right" && bash efi.sh
+ls /mnt | grep -w "right" && rm /mnt/right
