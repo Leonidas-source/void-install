@@ -61,6 +61,7 @@ nano mirrorlist
 REPO=$(cat mirrorlist | grep -v '#')
 ARCH=x86_64-musl
 XBPS_ARCH=$ARCH xbps-install -Sy -r /mnt -R $REPO'current/musl/' base-system
+xbps-install -SyuR $REPO'current/musl/'
 ls /usr/bin | grep -w "efibootmgr" || xbps-install -y efibootmgr
 ls /usr/bin | grep -w "sed" || xbps-install -y sed
 ls /usr/bin | grep -w "grep" || xbps-install -y grep
