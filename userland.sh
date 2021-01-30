@@ -18,6 +18,7 @@ echo "add another user?
 2) no"
 read answr
 [ "$answr" == "1" ] && user
+clear
 echo "install DE?
 1) yes
 2) no"
