@@ -8,7 +8,7 @@ user() {
   passwd $answr2
 }
 xbps-install -Syu
-xbps-install -y mc wget unzip nano exfat-utils btrfs-progs
+xbps-install -y mc wget unzip nano exfat-utils 
 nano /etc/hostname
 clear
 echo "set root password"
