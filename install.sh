@@ -81,7 +81,7 @@ mount --make-rslave /mnt/proc
 cp /etc/resolv.conf /mnt/etc/
 cp userland.sh /mnt
 mkdir -p /mnt/etc/xbps.d
-echo "repository=$REPO'current/musl'" | cat >> /mnt/etc/xbps.d/00-repository-main.conf
+echo "repository=$REPOcurrent/musl" | cat >> /mnt/etc/xbps.d/00-repository-main.conf
 cp de.sh /mnt
 chroot /mnt bash userland.sh
 rm /mnt/userland.sh
