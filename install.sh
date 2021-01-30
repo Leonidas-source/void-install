@@ -30,6 +30,7 @@ format2() {
   [ "$answr4" == "1" ] && mkfs.vfat $drive3
   [ "$answr4" == "2" ] && mkfs.exfat $drive3
 }
+ls /usr/bin | grep -w "mkfs.exfat" || (xbps-install -S && xbps-install -y exfat-utils)
 clear
 lsblk
 echo "set drive"
