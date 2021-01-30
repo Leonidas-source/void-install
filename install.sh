@@ -28,7 +28,7 @@ format2() {
   2) exfat"
   read answr4
   [ "$answr4" == "1" ] && mkfs.vfat $drive3
-  [ "$answr4" == "2" ] && mkfs.exfat $drive3
+  [ "$answr4" == "2" ] && (mkfs.exfat $drive3 && touch exfat)
 }
 ls /usr/bin | grep -w "mkfs.exfat" || (xbps-install -S && xbps-install -y exfat-utils)
 clear
@@ -56,7 +56,7 @@ echo "format it?
 read answr3
 [ "$answr3" == "1" ] && format2
 mkdir /mnt/boot
-mount $drive3 /mnt/boot
+ls | grep -w "exfat" && (mount.exfat $drive3 /mnt/boot) || (mount $drive3 /mnt/boot)
 ls /usr/bin | grep -w "nano" || (xbps-install -S && xbps-install -y nano)
 nano mirrorlist
 REPO=$(cat mirrorlist | grep -v '#')
